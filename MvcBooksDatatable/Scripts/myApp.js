@@ -9,7 +9,7 @@ app.controller('homeCtrl',['$scope', '$http', 'DTOpionsBuilder', 'DTColumnBuilde
             DTColumnBuilder.newColumn("Genre", "Genre"),
             DTColumnBuilder.newColumn("Page", "Page"),
             DTColumnBuilder.newColumn("Price", "Price"),
-            DTColumnBuilder.newColumn("Country", "Country"),
+            DTColumnBuilder.newColumn("Country", "Country")
         ]
 
         $scope.dtOpions = DTOptionsBuilder.newOptions().withOption('ajax', {
